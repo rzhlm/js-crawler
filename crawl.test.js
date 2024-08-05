@@ -1,4 +1,4 @@
-//import { test, expect } from "@jest/globals";
+import { test, expect } from "@jest/globals";
 import { normalizeUrl } from "./crawl.js";
 
 /*
@@ -10,3 +10,10 @@ http://blog.boot.dev/path
 Should all be treated as the same URL
 
 */
+
+test('normalizeUrl', () => {
+ const input = ''
+ const actual = normalizeUrl(input)
+ const expected = ''
+ expect(actual).toEqual(expected)
+})

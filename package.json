@@ -2,7 +2,8 @@
   "name": "js-crawler",
   "version": "1.0.0",
   "description": "JavaScript page crawler",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
     "start": "node main.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
