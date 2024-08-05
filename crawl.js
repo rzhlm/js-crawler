@@ -1,0 +1,4 @@
+function normalizeUrl() {
+};
+
+export { normalizeUrl };
